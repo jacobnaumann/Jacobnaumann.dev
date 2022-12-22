@@ -98,7 +98,7 @@ function font(inputVal) {
           }
         }
       } else if (lowercaseVal === 'list') {
-        output.innerHTML += `<div id="input-line">Here is a list of available fonts.  Type 'font [fontName]' to apply.</div>`;
+        output.innerHTML += `<div id="input-line">Here is a list of available fonts.  Type 'font [fontName]' to apply.`;
         // store all values with a key of "name" in a variable
         const nameValues = fonts_data.map(obj => obj["name"]);
         // console array containing all values
@@ -112,6 +112,7 @@ function font(inputVal) {
             output.innerHTML += `<span>${lowercaseNameValue}, </span>`;
           }
         }
+        output.innerHTML += `</div>`;
       } else {
         output.innerHTML += `<div id="input-line">Sorry, no font '${inputVal}' exists.  For a list of fonts, type 'font list'.</div>`;
       }
