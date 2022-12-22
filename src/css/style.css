@@ -7,6 +7,8 @@ body {
 #macro {
     color:darkgreen;
     font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 40px;
 }
 #main {
     margin-top: 10px;
@@ -51,7 +53,7 @@ body {
     color: #ffffff;
 }
 #input-user {
-    width: 50%;
+    width: 70%;
     border: none;
     background-color: #000;
     color: #fff;
@@ -112,6 +114,8 @@ body {
         font-family: 'Inconsolata', monospace;
         font-size: 16px;
         overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
         resize: none;
         outline: none;
         cursor: default;
@@ -134,7 +138,7 @@ body {
         color: #ffffff;
     }
     #input-user {
-        width: 50%;
+        width: 60%;
         border: none;
         background-color: #000;
         color: #fff;
@@ -146,6 +150,7 @@ body {
         outline: none;
         cursor: default;
         margin-left: -2px;
+    
     }
     #input-user-past {
         width: 50%;
@@ -158,8 +163,7 @@ body {
         overflow: hidden;
         resize: none;
         outline: none;
-        cursor: default;
-    
+        cursor: default;    
     }
     #output {
         margin-bottom: -2px;
