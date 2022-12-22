@@ -1,0 +1,80 @@
+[
+    {
+    "name": "Chivo+Mono",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap'); </style>",
+    "family": "'Chivo Mono', monospace;"
+    },
+    {
+    "name": "Cutive+Mono",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap'); </style>",
+    "family": "'Cutive Mono', monospace;"
+    },
+    {
+    "name": "Inconsolata",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=Inconsolata&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap'); </style>",
+    "family": "'Inconsolata', monospace;"
+    },
+    {
+    "name": "Fira+Mono",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap'); </style>",
+    "family": "'Fira Mono', monospace;"
+    },
+    {
+    "name": "JetBrains+Mono",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap'); </style>",
+    "family": "'JetBrains Mono', monospace;"
+    },
+    {
+    "name": "Major+Mono+Display",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap'); </style>",
+    "family": "'Major Mono Display', monospace;"
+    },
+    {
+    "name": "Martian+Mono",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap'); </style>",
+    "family": "'Martian Mono', monospace;"
+    },
+    {
+    "name": "Nova+Mono",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap'); </style>",
+    "family": "'Nova Mono', monospace;"
+    },
+    {
+    "name": "Roboto+Mono",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); </style>",
+    "family": "'Roboto Mono', monospace;"
+    },
+    {
+    "name": "Share+Tech+Mono",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); </style>",
+    "family": "'Share Tech Mono', monospace;"
+    },
+    {
+    "name": "Space+Mono",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=Space+Mono&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap'); </style>",
+    "family": "'Space Mono', monospace;"
+    },
+    {
+    "name": "Syne+Mono",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap'); </style>",
+    "family": "'Syne Mono', monospace;"
+    },
+    {
+    "name": "VT323",
+    "href": "<link href='https://fonts.googleapis.com/css2?family=VT323&display=swap' rel='stylesheet'>",
+    "style": "<style> @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); </style>",
+    "family": "'VT323', monospace;"
+    }
+]

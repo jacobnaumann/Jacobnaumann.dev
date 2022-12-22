@@ -1,0 +1,82 @@
+    
+body {
+    background: black;
+    height: 900px;
+}
+
+#macro {
+    color:darkgreen;
+}
+#main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#cli {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    border-width: 2px;
+}
+#input-line {
+    width: 100%;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    height: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    overflow: hidden;
+    resize: none;
+    outline: none;
+    cursor: default;
+    padding-bottom: 2px;
+}
+#input-line #input-guest {
+    margin-right: -7px;
+    color:#38cf12;
+}
+#input-line #input-white {
+    margin-right: -7px;
+    color: #ffffff;
+}
+#input-line #input-blue {
+    margin-right: -7px;
+    color: #3227d4;
+}
+#input-line #input-dollar {
+    margin-right: 3px;
+    color: #ffffff;
+}
+#input-user {
+    width: 50%;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    height: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    overflow: hidden;
+    resize: none;
+    outline: none;
+    cursor: default;
+    margin-left: -2px;
+}
+#input-user-past {
+    width: 50%;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    height: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    overflow: hidden;
+    resize: none;
+    outline: none;
+    cursor: default;
+
+}
+#output {
+    margin-bottom: -2px;
+}
