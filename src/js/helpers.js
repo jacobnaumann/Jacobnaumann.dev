@@ -2,7 +2,7 @@ function addCommandtoOutput (command) {
   let output = document.getElementById('output');
   let input = document.getElementById("input-user");
   output.innerHTML += `<div id="input-line">
-                        <span id="input-guest">anon-guest@ubuntu</span>
+                        <span id="input-guest">guest@ubuntu</span>
                           <span id="input-white">:</span>
                             <span id="input-blue">~</span>
                               <span id="input-dollar">$</span>

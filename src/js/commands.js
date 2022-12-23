@@ -8,7 +8,7 @@ function dateNow() {
   const date = new Date();
   let dateString = date.toString();
   output.innerHTML += `      <div id="input-line">
-  <span id="anon-guest" style="color:#38cf12">anon-guest@ubuntu</span>
+  <span id="anon-guest" style="color:#38cf12">guest@ubuntu</span>
     <span id="input-white" style="color:#ffffff">:</span>
       <span id="input-blue" style="color:#3227d4">~</span>
         <span id="input-white" style="color:#ffffff">$</span>    
