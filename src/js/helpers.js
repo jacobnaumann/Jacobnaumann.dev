@@ -6,7 +6,7 @@ function addCommandtoOutput (command) {
                           <span id="input-white">:</span>
                             <span id="input-blue">~</span>
                               <span id="input-dollar">$</span>
-                                <span id="input-line">${command}</span>
+                                <span id="input-line-span">${command}</span>
                        </div>`;
   
 }
@@ -54,12 +54,16 @@ function changeThemeBackground (newThemeBG) {
   let main = document.getElementById("main");
   let output = document.getElementById("output");
   let input = document.getElementById("input-line");
+  let user = document.getElementById("input-user");
+  let ubuntu = document.getElementById("user-ubuntu");
   body.style.backgroundColor = newThemeBG;
   cli.style.backgroundColor = newThemeBG;
   macro.style.backgroundColor = newThemeBG;
   main.style.backgroundColor = newThemeBG;
   output.style.backgroundColor = newThemeBG;
   input.style.backgroundColor = newThemeBG;
+  user.style.backgroundColor = newThemeBG;
+  ubuntu.style.backgroundColor = newThemeBG;
 }
 function changeThemeForeground (newThemeFG) {
   let body = document.body;
@@ -68,12 +72,16 @@ function changeThemeForeground (newThemeFG) {
   let main = document.getElementById("main");
   let output = document.getElementById("output");
   let input = document.getElementById("input-line");
+  let user = document.getElementById("input-user");
+  let ubuntu = document.getElementById("user-ubuntu");
   body.style.color = newThemeFG;
   cli.style.color = newThemeFG;
   macro.style.color = newThemeFG;
   main.style.color = newThemeFG;
   output.style.color = newThemeFG;
   input.style.color = newThemeFG;
+  user.style.color = newThemeFG;
+  ubuntu.style.color = newThemeFG;
 }
 function changeCSSFontFamily (newFamily) {
   let cli = document.getElementById("cli");
@@ -81,9 +89,13 @@ function changeCSSFontFamily (newFamily) {
   let main = document.getElementById("main");
   let output = document.getElementById("output");
   let input = document.getElementById("input-line");
+  let user = document.getElementById("input-user");
+  let ubuntu = document.getElementById("user-ubuntu");
   cli.style.fontFamily = newFamily;
   macro.style.fontFamily = newFamily;
   main.style.fontFamily = newFamily;
   output.style.fontFamily = newFamily;
-  input.style.fontFamily = newFamily;  
+  input.style.fontFamily = newFamily; 
+  user.style.fontFamily = newFamily;
+  ubuntu.style.fontFamily = newFamily; 
 }

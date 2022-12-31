@@ -6,24 +6,22 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href='https://fonts.googleapis.com/css2?family=Inconsolata&display=swap' rel='stylesheet'>
-    <style> @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap'); </style>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap'); </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body onclick="document.getElementById('input-user').focus()">
     <div id="cli">
       <div id="macro"><br><br>
-        &nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;___<br>
-        &nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;/&nbsp;/\&nbsp;&nbsp;/&nbsp;/`&nbsp;&nbsp;/&nbsp;/&nbsp;\&nbsp;|&nbsp;|_)<br>
-        \_|_|&nbsp;/_/--\&nbsp;\_\_,&nbsp;\_\_/&nbsp;|_|_)<br>
-        &nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_<br>
-        |&nbsp;|\&nbsp;|&nbsp;&nbsp;/&nbsp;/\&nbsp;&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|\/|&nbsp;&nbsp;/&nbsp;/\&nbsp;&nbsp;|&nbsp;|\&nbsp;|&nbsp;|&nbsp;|\&nbsp;|<br>
-        |_|&nbsp;\|&nbsp;/_/--\&nbsp;\_\_/&nbsp;|_|&nbsp;&nbsp;|&nbsp;/_/--\&nbsp;|_|&nbsp;\|&nbsp;|_|&nbsp;\|<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;____&nbsp;&nbsp;_<br>
-        &nbsp;__&nbsp;&nbsp;|&nbsp;|&nbsp;\&nbsp;|&nbsp;|_&nbsp;&nbsp;\&nbsp;\&nbsp;&nbsp;/<br>
-        (_()&nbsp;|_|_/&nbsp;|_|__&nbsp;&nbsp;\_\/<br>
-        &nbsp;___&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;___<br>
-        |___|&nbsp;|___|&nbsp;|___|&nbsp;|___|&nbsp;|___|&nbsp;|___|&nbsp;|___|&nbsp;|___|
+        &nbsp;.&nbsp;_&nbsp;&nbsp;_&nbsp;_&nbsp;|_<br>
+        &nbsp;|(_|(_(_)|_)<br>
+        L|<br>
+        &nbsp;_&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;_&nbsp;&nbsp;_&nbsp;&nbsp;_&nbsp;&nbsp;_<br>
+        |&nbsp;|(_||_||&nbsp;|&nbsp;|(_||&nbsp;||&nbsp;|<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+        &nbsp;&nbsp;_|&nbsp;_<br>
+        .(_|(/_\/<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
       </div>
       <div id="main">
         Please enter a command, or type 'help'
@@ -32,11 +30,16 @@
         <!-- Add a textarea for the user output (for later use)-->
       </div>      
       <div id="input-line">
-        <span id="input-guest">guest@ubuntu</span>
+        <span id="user-ubuntu">
+          <span id="input-guest">guest@ubuntu</span>
           <span id="input-white">:</span>
-            <span id="input-blue">~</span>
-              <span id="input-dollar">$</span>
-                <input autofocus id="input-user" type="text" autocomplete="off">      
+          <span id="input-blue">~</span>
+          <span id="input-dollar">$</span>
+        </span>
+        <span id="input-area">
+          <input autofocus id="input-user" type="text" autocomplete="off">      
+        </span>
+          
       </div>
     </div>
   </body>
