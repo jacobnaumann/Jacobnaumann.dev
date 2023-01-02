@@ -66,25 +66,11 @@ body {
     cursor: default;
     margin-left: -2px;
 }
-#input-user-past {
-    width: 50%;
-    border: none;
-    background-color: #000;
-    color: #fff;
-    height: 20px;
-    font-family: 'Major Mono Display', monospace;
-    font-size: 16px;
-    overflow: hidden;
-    resize: none;
-    outline: none;
-    cursor: default;
-
-}
 #output {
     margin-bottom: -1px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     body {
         height: 900px;
     }
@@ -105,9 +91,6 @@ body {
         padding: 10px;
         border-width: 2px;
     }
-    #user-ubuntu {
-        width: 30%;
-    }
     #input-line {
         width: 100%;
         border: none;
@@ -118,7 +101,7 @@ body {
         font-size: 16px;
         overflow: hidden;
         white-space: nowrap;
-        /* text-overflow: ellipsis; */
+        text-overflow: ellipsis;
         resize: none;
         outline: none;
         cursor: default;
@@ -139,26 +122,9 @@ body {
     #input-line #input-dollar {
         margin-right: 3px;
         color: #ffffff;
-    }
-    #input-area {
-        width: 60%;
+        display: inline-block;
     }
     #input-user {
-        width: 100%;
-        border: none;
-        background-color: #000;
-        color: #fff;
-        height: 20px;
-        font-family: 'Major Mono Display', monospace;
-        font-size: 16px;
-        overflow: hidden;
-        resize: none;
-        outline: none;
-        cursor: default;
-        margin-left: -2px;
-    
-    }
-    #input-user-past {
         width: 50%;
         border: none;
         background-color: #000;
@@ -169,8 +135,10 @@ body {
         overflow: hidden;
         resize: none;
         outline: none;
-        cursor: default;    
-    }   
+        cursor: default;
+        margin-left: -2px;   
+        display: inline-block;
+    }
     #output {
         margin-bottom: -1px;
     }
